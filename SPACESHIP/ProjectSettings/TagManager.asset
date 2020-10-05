@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Death
+  - EnemyPoint
+  - Projectile
+  - DestroyThings
+  - Stop
+  - Enemy
+  - bubbled
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - stars
+  - BACKGROUND
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: main
+    uniqueID: 364725807
+    locked: 0
+  - name: stars
+    uniqueID: 3530226513
+    locked: 0
+  - name: background
+    uniqueID: 366072183
+    locked: 0
