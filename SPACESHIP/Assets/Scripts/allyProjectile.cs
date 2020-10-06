@@ -23,6 +23,9 @@ public class allyProjectile : MonoBehaviour
             DestroyProjectile();
             other.GetComponent<Enemy>().currentHealth -= damage;
         }
+        /*if (other.CompareTag("Bubbled"))
+            DestroyProjectile();*/
+
     }
 
     void DestroyProjectile()

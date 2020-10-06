@@ -84,9 +84,10 @@ public class Shop : MonoBehaviour
 			ShopItemsList [itemIndex].IsPurchased = true;
 			PlayerPrefs.SetInt(ShopItemsList[itemIndex].name, itemIndex); // questo index è comprato
 
+            SoundManager.PlaySound("tastoClick");
 
-			//disable the button
-			buyBtn = ShopScrollView.GetChild (itemIndex).GetChild (2).GetComponent <Button> ();
+            //disable the button
+            buyBtn = ShopScrollView.GetChild (itemIndex).GetChild (2).GetComponent <Button> ();
 			DisableBuyButton ();
 			//change UI text: coins
 			Game.Instance.UpdateAllCoinsUIText ();
@@ -94,7 +95,9 @@ public class Shop : MonoBehaviour
 			//add avatar
 			Profile.Instance.AddAvatar(ShopItemsList[itemIndex].Image, ShopItemsList[itemIndex].prefabToInstantiateIndex);
 		} else {
-			NoCoinsAnim.SetTrigger ("NoCoins");
+            SoundManager.PlaySound("tastoClick");
+
+            NoCoinsAnim.SetTrigger ("NoCoins");
 			UnityEngine.Debug.Log ("You don't have enough coins!!");
 		}
 	}
@@ -108,12 +111,14 @@ public class Shop : MonoBehaviour
 	public void OpenShop ()
 	{
 		ShopPanel.SetActive (true);
-	}
+        SoundManager.PlaySound("tastoClick");
+    }
 
-	public void CloseShop ()
+    public void CloseShop ()
 	{
+        SoundManager.PlaySound("tastoClick");
 		ShopPanel.SetActive (false);
-	}
+    }
 	int boolToInt(bool val)
 	{
 		if (val)

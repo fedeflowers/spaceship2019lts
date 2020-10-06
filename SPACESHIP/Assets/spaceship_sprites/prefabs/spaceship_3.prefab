@@ -185,6 +185,8 @@ MonoBehaviour:
   speed: 0
   projectile: {fileID: 503048665818601786, guid: 18a874ce604b702468694fa27a2e0ea4,
     type: 3}
+  ammosText: {fileID: 0}
+  ammos: 50
 --- !u!114 &8976061115616973346
 MonoBehaviour:
   m_ObjectHideFlags: 0

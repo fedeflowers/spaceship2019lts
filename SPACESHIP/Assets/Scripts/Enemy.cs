@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -73,6 +74,12 @@ public class Enemy : MonoBehaviour
                 //PlayerPrefs.SetInt("Coins",Coins);
                 bossDeathCounts++;
             }
+            // prendo il riferimento di ammos e le aggiungo
+            ShipControl.ammos += 10;
+            //aggiorno il testo
+            Text ammosText = GameObject.Find("Canvas/Image/ammoText").GetComponent<Text>();
+            ammosText.text = ShipControl.ammos.ToString();
+
             Destroy(this.gameObject);
         }
         healthBar.SetHealth(currentHealth);

@@ -710,8 +710,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -131.2, y: -13.6}
-  m_SizeDelta: {x: 253.80507, y: 59.73742}
+  m_AnchoredPosition: {x: -303, y: -13.569}
+  m_SizeDelta: {x: 442.86102, y: 59.73742}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &409941147
 MonoBehaviour:
@@ -745,7 +745,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No enough Coins!!
+  m_Text: Not enough Coins!!
 --- !u!222 &409941148
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1149,6 +1149,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1829360121}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &941861842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 941861843}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &941861843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941861842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.488045, y: 4.2285233, z: -0.5496083}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &985155075
 GameObject:
@@ -1774,8 +1804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.9872068}
   m_AnchorMax: {x: 1, y: 0.9872068}
-  m_AnchoredPosition: {x: 6, y: 38.80005}
-  m_SizeDelta: {x: -12, y: 54.4}
+  m_AnchoredPosition: {x: -37.4, y: 38.80005}
+  m_SizeDelta: {x: -98.87012, y: 54.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1295143404
 GameObject:

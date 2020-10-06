@@ -236,3 +236,4 @@ MonoBehaviour:
   speed: 0
   projectile: {fileID: 1920357965220463677, guid: cbb709a960c88d5488f652fad996a08d,
     type: 3}
+  ammos: 100
